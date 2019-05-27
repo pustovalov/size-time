@@ -1,0 +1,12 @@
+[
+  {
+    "path": "dist/moment-bundle.*.js",
+    "limit": "25.7 KB",
+    "running": false
+  },
+  {
+    "path": "dist/datefns-bundle.*.js",
+    "limit": "7.6 KB",
+    "running": false
+  }
+]

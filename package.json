@@ -1,0 +1,24 @@
+{
+  "files": [
+    "src/"
+  ],
+  "name": "test",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "parcel serve src/index.html --open",
+    "clean": "rm -rf dist",
+    "build": "yarn clean && parcel build src/index.html --experimental-scope-hoisting --public-url ./",
+    "size": "yarn size-limit"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-bundle-visualiser": "^1.2.0",
+    "size-limit": "^1.3.3"
+  },
+  "dependencies": {
+    "date-fns": "2.0.0-alpha.27",
+    "date-fns-tz": "^1.0.7",
+    "moment-timezone": "^0.5.25"
+  }
+}

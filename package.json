@@ -19,6 +19,6 @@
   "dependencies": {
     "date-fns": "2.0.0-alpha.27",
     "date-fns-tz": "^1.0.7",
-    "moment-timezone": "^0.5.25"
+    "moment-timezone": "^0.5.35"
   }
 }
